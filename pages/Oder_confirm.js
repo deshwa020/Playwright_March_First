@@ -2,7 +2,7 @@ class OrderConfirm {
     constructor(page) {
         this.page = page;
     }
-
+// this is order page
     async getOrderId() {
 
         await this.page.waitForSelector('#order_no');
