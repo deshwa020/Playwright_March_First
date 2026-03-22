@@ -4,7 +4,7 @@ class BookHotel{
         this.page=page;
     
     }
-
+// hotel booking
     async booking(data)
     {
         await this.page.fill('#first_name',data.firstName)
